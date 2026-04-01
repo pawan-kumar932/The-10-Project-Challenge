@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+#parent button{
+    margin: 10px;
+    height: 40px;
+    width: 80px;
+    font-size: 15px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+
+}
+#red{
+    background-color: red;
+    box-shadow: 3px 5px 10px red;
+    border: 2px solid snow;
+}
+#green{
+    background-color: green;
+    box-shadow: 3px 5px 10px green;
+    border: 2px solid snow;
+}
+#orange{
+    background-color: orange;
+    box-shadow: 3px 5px 10px orange;
+    border: 2px solid snow;
+}
+#pink{
+
+    background-color: pink;
+    box-shadow: 3px 5px 10px pink;
+    border: 2px solid snow;
+}
+#blueviolet{
+    background-color: blueviolet;
+    box-shadow: 3px 5px 10px blueviolet;
+    border: 2px solid snow;
+}
+#blue{
+    background-color: blue;
+    box-shadow: 3px 5px 10px blue;
+    border: 2px solid snow;
+}
+button:hover{
+    transform: translateY(-3px);
+}
+h2{
+    color: black;
+    padding: 20px;
+}
+.content{
+    background-color: snow;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:20px ;
+    border-radius: 10px;
+    transition: 0.3s;
+    box-shadow: 10px 10px 5px white;
+    border: 2px solid black;
+
+}
+.content:hover{
+    transform: translateY(-10px);
+}
