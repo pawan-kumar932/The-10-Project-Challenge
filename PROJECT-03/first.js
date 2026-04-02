@@ -9,9 +9,17 @@ form.addEventListener('submit',(e)=>{
 
     const res = Math.pow(l1+l2,3)%101;
     document.getElementById('result');
-    result.textContent = `Result:${res}%`;
-    form.reset();
+    if(res < 13){
+        result.textContent = `Result:${res}% Try Again`;
+    }
+    else if(res > 80){
+        result.textContent = `Result:${res}% Perfect Match`;
+    }
+    else{
+        result.textContent = `Result:${res}%`;
+    }
     
+    form.reset();
 
 
 })
