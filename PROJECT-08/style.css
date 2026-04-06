@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+.clicker{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    animation: grow 6s forwards;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+@keyframes grow {
+    0%{
+        font-size: 10px;
+        opacity: 1;
+        transform: scale(1);
+
+    }
+    100%{
+        font-size: 30px;
+        opacity: 0;
+        transform: scale(4);
+
+    }
+    
+}
